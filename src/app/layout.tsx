@@ -1,13 +1,18 @@
-import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
-import './globals.css';
+'use client';
 
-const inter = Inter({ subsets: ['latin'] });
+import { Poppins } from 'next/font/google';
+import '../styles/globals.css';
 
-export const metadata: Metadata = {
-  title: 'Gabriel&Gabriela',
-  description: 'Site do nosso casamento'
-};
+/* import components */
+import Header from '@/components/Header';
+import Preloader from '@/components/Preloader';
+
+const poppins = Poppins({
+  weight: ['300', '400', '600', '700', '800'],
+  style: ['normal', 'italic'],
+  subsets: ['latin'],
+  display: 'swap'
+});
 
 export default function RootLayout({
   children
@@ -16,7 +21,16 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-br">
-      <body className={inter.className}>{children}</body>
+      <head>
+        <title>Gabriel &amp; Gabriela</title>
+      </head>
+      <body className={poppins.className}>
+        <Preloader />
+        <div id="wrapper">
+          <Header />
+          {children}
+        </div>
+      </body>
     </html>
   );
 }

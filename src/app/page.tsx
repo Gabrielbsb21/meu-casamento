@@ -1,3 +1,9 @@
+import Hero from '@/screens/HomePage/components/Hero';
+
 export default function Home() {
-  return <div id="wrapper"></div>;
+  return (
+    <main>
+      <Hero />
+    </main>
+  );
 }

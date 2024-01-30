@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <header id="header">
       <div className="container mx-auto">
-        <div className="flex items-center justify-between py-4">
+        <div className="hidden items-center justify-between py-4 lg:flex">
           <Link href="/">Logo do Casal</Link>
           <nav>
             <ul className="flex items-center space-x-10">

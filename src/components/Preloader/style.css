@@ -1,0 +1,64 @@
+.preloader {
+  position: fixed;
+  background: #fff;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1002;
+  text-align: center;
+}
+
+.preloader-title {
+  font-size: 20pt;
+  color: currentColor;
+  line-height: 0.9;
+  position: absolute;
+  top: 41px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  font-family: "Playfair Display", serif;
+}
+
+.preloader-title small {
+  color: currentColor;
+  line-height: 0.9;
+  font-size: 12pt;
+}
+
+.loading-heart {
+  fill: transparent;
+  stroke: #8eaeba;
+  stroke-width: 11;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  display: inline-block;
+}
+
+.loading-heart svg {
+  overflow: visible;
+  width: 11rem;
+}
+
+.loading-heart path {
+  stroke-dashoffset: 0;
+  stroke-dasharray: 1550;
+  transform-origin: center;
+  -webkit-animation: stroke-animation 3s ease-in-out infinite forwards;
+  -khtml-animation: stroke-animation 3s ease-in-out infinite forwards;
+  -moz-animation: stroke-animation 3s ease-in-out infinite forwards;
+  -ms-animation: stroke-animation 3s ease-in-out infinite forwards;
+  -o-animation: stroke-animation 3s ease-in-out infinite forwards;
+  animation: stroke-animation 3s ease-in-out infinite forwards;
+}

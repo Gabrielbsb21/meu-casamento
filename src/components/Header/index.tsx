@@ -1,35 +1,54 @@
+'use client';
+
 import Link from 'next/link';
+import { useState } from 'react';
+import { useEffect } from 'react';
+import './style.css';
 
 const Header = () => {
+  const [scroll, setScroll] = useState(0);
+
+  const handleScroll = () => setScroll(document.documentElement.scrollTop);
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  const className = scroll > 80 ? 'fixed-navbar active' : 'fixed-navbar';
+
   return (
-    <header className="fixed left-0 top-0 z-[1000] w-full">
-      <div className="container mx-auto">
-        <div className="hidden items-center justify-between py-4 lg:flex">
-          <Link href="/">Logo do Casal</Link>
-          <nav>
-            <ul className="flex items-center space-x-10">
-              <li>
-                <Link href="/" className="text-xl">
-                  Início
-                </Link>
-              </li>
-              <li>
-                <Link href="/about" className="text-xl">
-                  Sobre
-                </Link>
-              </li>
-              <li>
-                <Link href="/presents" className="text-xl">
-                  Presentes
-                </Link>
-              </li>
-              <li>
-                <Link href="/rsvp" className="text-xl">
-                  RSVP
-                </Link>
-              </li>
-            </ul>
-          </nav>
+    <header className={className}>
+      <div className="bg-transparent">
+        <div className="container mx-auto px-4 py-6">
+          <div className="flex justify-between items-center">
+            <Link href="/">
+              <h1>Logo do Casal</h1>
+            </Link>
+            <nav>
+              <ul>
+                <li>
+                  <Link href="/#home">Home</Link>
+                </li>
+                <li>
+                  <Link href="/#about">Sobre</Link>
+                </li>
+                <li>
+                  <Link href="/#events">Eventos</Link>
+                </li>
+                <li>
+                  <Link href="/#gallery">Galeria</Link>
+                </li>
+                <li>
+                  <Link href="/#rsvp">RSVP</Link>
+                </li>
+                <li>
+                  <Link href="/#contact">Contato</Link>
+                </li>
+              </ul>
+            </nav>
+            <p>Login?</p>
+          </div>
         </div>
       </div>
     </header>

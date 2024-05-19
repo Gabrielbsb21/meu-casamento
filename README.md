@@ -1,52 +1,36 @@
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-# Casamento - Gabriel & Gabriela
+## Getting Started
 
-Este repositório abriga o site do casamento de Gabriel e Gabriela, criado para compartilhar com os convidados detalhes sobre este momento único. Com um design intuitivo e sofisticado, o site visa fornecer informações essenciais sobre o evento, garantindo que os convidados tenham uma experiência agradável e estejam bem informados sobre a celebração especial que se aproxima.
-
-## Instalação e Execução
-
-Para começar a trabalhar com este projeto, siga os passos abaixo:
-
-### Instalação
-
-Primeiro, instale as dependências do projeto utilizando o npm:
-
-```bash
-npm install
-```
-
-### Execução em Modo de Desenvolvimento
-
-Para rodar o projeto em modo de desenvolvimento, utilize o seguinte comando:
+First, run the development server:
 
 ```bash
 npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-Isso iniciará o servidor de desenvolvimento do Next.js, e o projeto estará acessível no navegador via http://localhost:3000.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-### Construção do Projeto
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-Para construir o projeto para produção, use o comando:
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-```bash
-npm run build
-```
+## Learn More
 
-Este comando compila o aplicativo e o prepara para o ambiente de produção.
+To learn more about Next.js, take a look at the following resources:
 
-### Execução de Testes Unitários
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-Para executar os testes unitários, utilize:
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-```bash
-npm run test
-```
+## Deploy on Vercel
 
-## Tech Stack
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-**Client:** React, NextJS, TailwindCSS, Jest
-
-## Authors
-
-- [Aspar - Assessoria eTecnologia ] (https://github.com/Aspar-Assessoria-e-Tecnologia)
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

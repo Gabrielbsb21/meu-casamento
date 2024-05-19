@@ -1,0 +1,17 @@
+.fixed-navbar {
+  position: relative;
+  z-index: 5555;
+}
+
+.fixed-navbar.active {
+  position: fixed;
+  z-index: 555;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  border: none;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+}

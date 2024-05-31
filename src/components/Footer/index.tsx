@@ -1,6 +1,7 @@
 'use client';
 
 import Image from 'next/image';
+import Link from 'next/link';
 import { Slide } from 'react-awesome-reveal';
 
 const Footer = () => {
@@ -11,10 +12,28 @@ const Footer = () => {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 pb-6">
             <article className="mb-8 lg:mb-0 px-4">
               <h2 className="text-2xl font-bold text-gray-950 mb-4">Links</h2>
-              <p className="text-gray-950">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                gravida, erat ut commodo commodo, metus purus accumsan.
-              </p>
+              <div className="grid grid-cols-2 gap-1">
+                <nav>
+                  <ul className="flex flex-col gap-2">
+                    <li>
+                      <Link href="/#about">Sobre</Link>
+                    </li>
+                    <li>
+                      <Link href="/#gallery">Galeria</Link>
+                    </li>
+                  </ul>
+                </nav>
+                <nav>
+                  <ul className="flex flex-col gap-2">
+                    <li>
+                      <Link href="/#rsvp">RSVP</Link>
+                    </li>
+                    <li>
+                      <Link href="/#contact">Contato</Link>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
             </article>
             <article className="mb-8 lg:mb-0 px-4">
               <h2 className="text-2xl font-bold text-gray-950 mb-4">

@@ -1,0 +1,52 @@
+.react-countdown {
+  display: flex;
+  justify-content: space-between;
+}
+
+.time-section {
+  float: left;
+  width: 100px;
+}
+
+.time {
+  font-family: 'Sail', cursive;
+  font-size: 60px;
+  line-height: 1em;
+  padding-top: 15px;
+  color: #657150;
+}
+
+.time-text {
+  color: #5c5c5c;
+  font-size: 20px;
+}
+
+@media (max-width: 450px) {
+  .time-section {
+    width: 60px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .time {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .time {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 991px) {
+  .time {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  .time {
+    font-size: 40px;
+  }
+}

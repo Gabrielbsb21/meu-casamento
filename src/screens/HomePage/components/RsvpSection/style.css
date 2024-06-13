@@ -1,0 +1,2144 @@
+.wpo-contact-section,
+.wpo-contact-section-s2,
+.wpo-contact-section-s3,
+.wpo-contact-section-s4,
+.wpo-contact-section-s5,
+.wpo-contact-section-s6,
+.wpo-contact-section-s7,
+.wpo-contact-section-s8 {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  padding-top: 20px;
+}
+
+.section-padding {
+  padding: 120px 0;
+}
+
+.wpo-contact-section .row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+  justify-content: center !important;
+}
+
+.wpo-contact-section .contact-img img,
+.wpo-contact-section-s2 .contact-img img,
+.wpo-contact-section-s3 .contact-img img,
+.wpo-contact-section-s4 .contact-img img,
+.wpo-contact-section-s5 .contact-img img,
+.wpo-contact-section-s6 .contact-img img,
+.wpo-contact-section-s7 .contact-img img,
+.wpo-contact-section-s8 .contact-img img {
+  width: 100%;
+  min-height: 600px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+@media (max-width: 767px) {
+  .wpo-contact-section .contact-img img,
+  .wpo-contact-section-s2 .contact-img img,
+  .wpo-contact-section-s3 .contact-img img,
+  .wpo-contact-section-s4 .contact-img img,
+  .wpo-contact-section-s5 .contact-img img,
+  .wpo-contact-section-s6 .contact-img img,
+  .wpo-contact-section-s7 .contact-img img,
+  .wpo-contact-section-s8 .contact-img img {
+    min-height: unset;
+  }
+}
+
+.wpo-contact-section .wpo-contact-section-wrapper,
+.wpo-contact-section-s2 .wpo-contact-section-wrapper,
+.wpo-contact-section-s3 .wpo-contact-section-wrapper,
+.wpo-contact-section-s4 .wpo-contact-section-wrapper,
+.wpo-contact-section-s5 .wpo-contact-section-wrapper,
+.wpo-contact-section-s6 .wpo-contact-section-wrapper,
+.wpo-contact-section-s7 .wpo-contact-section-wrapper,
+.wpo-contact-section-s8 .wpo-contact-section-wrapper {
+  position: relative;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  z-index: 1;
+  max-width: 530px;
+}
+
+.wpo-contact-section .wpo-contact-section-wrapper:before,
+.wpo-contact-section-s2 .wpo-contact-section-wrapper:before,
+.wpo-contact-section-s3 .wpo-contact-section-wrapper:before,
+.wpo-contact-section-s4 .wpo-contact-section-wrapper:before,
+.wpo-contact-section-s5 .wpo-contact-section-wrapper:before,
+.wpo-contact-section-s6 .wpo-contact-section-wrapper:before,
+.wpo-contact-section-s7 .wpo-contact-section-wrapper:before,
+.wpo-contact-section-s8 .wpo-contact-section-wrapper:before {
+  position: absolute;
+  left: -4%;
+  top: -20px;
+  width: 108%;
+  height: 198px;
+  background: #657150;
+  content: '';
+  z-index: -1;
+}
+
+@media (max-width: 767px) {
+  .wpo-contact-section .wpo-contact-section-wrapper:before,
+  .wpo-contact-section-s2 .wpo-contact-section-wrapper:before,
+  .wpo-contact-section-s3 .wpo-contact-section-wrapper:before,
+  .wpo-contact-section-s4 .wpo-contact-section-wrapper:before,
+  .wpo-contact-section-s5 .wpo-contact-section-wrapper:before,
+  .wpo-contact-section-s6 .wpo-contact-section-wrapper:before,
+  .wpo-contact-section-s7 .wpo-contact-section-wrapper:before,
+  .wpo-contact-section-s8 .wpo-contact-section-wrapper:before {
+    height: 190px;
+  }
+}
+
+@media (max-width: 575px) {
+  .wpo-contact-section .wpo-contact-section-wrapper:before,
+  .wpo-contact-section-s2 .wpo-contact-section-wrapper:before,
+  .wpo-contact-section-s3 .wpo-contact-section-wrapper:before,
+  .wpo-contact-section-s4 .wpo-contact-section-wrapper:before,
+  .wpo-contact-section-s5 .wpo-contact-section-wrapper:before,
+  .wpo-contact-section-s6 .wpo-contact-section-wrapper:before,
+  .wpo-contact-section-s7 .wpo-contact-section-wrapper:before,
+  .wpo-contact-section-s8 .wpo-contact-section-wrapper:before {
+    height: 120px;
+  }
+}
+
+.wpo-contact-section .wpo-contact-section-wrapper .wpo-section-title,
+.wpo-contact-section-s2 .wpo-contact-section-wrapper .wpo-section-title,
+.wpo-contact-section-s3 .wpo-contact-section-wrapper .wpo-section-title,
+.wpo-contact-section-s4 .wpo-contact-section-wrapper .wpo-section-title,
+.wpo-contact-section-s5 .wpo-contact-section-wrapper .wpo-section-title,
+.wpo-contact-section-s6 .wpo-contact-section-wrapper .wpo-section-title,
+.wpo-contact-section-s7 .wpo-contact-section-wrapper .wpo-section-title,
+.wpo-contact-section-s8 .wpo-contact-section-wrapper .wpo-section-title {
+  padding: 60px 0;
+  background: #f8f8f7;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 575px) {
+  .wpo-contact-section .wpo-contact-section-wrapper .wpo-section-title,
+  .wpo-contact-section-s2 .wpo-contact-section-wrapper .wpo-section-title,
+  .wpo-contact-section-s3 .wpo-contact-section-wrapper .wpo-section-title,
+  .wpo-contact-section-s4 .wpo-contact-section-wrapper .wpo-section-title,
+  .wpo-contact-section-s5 .wpo-contact-section-wrapper .wpo-section-title,
+  .wpo-contact-section-s6 .wpo-contact-section-wrapper .wpo-section-title,
+  .wpo-contact-section-s7 .wpo-contact-section-wrapper .wpo-section-title,
+  .wpo-contact-section-s8 .wpo-contact-section-wrapper .wpo-section-title {
+    padding: 30px 0;
+  }
+}
+
+.wpo-contact-section .wpo-contact-section-wrapper .wpo-section-title h2,
+.wpo-contact-section-s2 .wpo-contact-section-wrapper .wpo-section-title h2,
+.wpo-contact-section-s3 .wpo-contact-section-wrapper .wpo-section-title h2,
+.wpo-contact-section-s4 .wpo-contact-section-wrapper .wpo-section-title h2,
+.wpo-contact-section-s5 .wpo-contact-section-wrapper .wpo-section-title h2,
+.wpo-contact-section-s6 .wpo-contact-section-wrapper .wpo-section-title h2,
+.wpo-contact-section-s7 .wpo-contact-section-wrapper .wpo-section-title h2,
+.wpo-contact-section-s8 .wpo-contact-section-wrapper .wpo-section-title h2 {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@media (max-width: 575px) {
+  .wpo-contact-section .wpo-contact-section-wrapper .wpo-section-title h2,
+  .wpo-contact-section-s2 .wpo-contact-section-wrapper .wpo-section-title h2,
+  .wpo-contact-section-s3 .wpo-contact-section-wrapper .wpo-section-title h2,
+  .wpo-contact-section-s4 .wpo-contact-section-wrapper .wpo-section-title h2,
+  .wpo-contact-section-s5 .wpo-contact-section-wrapper .wpo-section-title h2,
+  .wpo-contact-section-s6 .wpo-contact-section-wrapper .wpo-section-title h2,
+  .wpo-contact-section-s7 .wpo-contact-section-wrapper .wpo-section-title h2,
+  .wpo-contact-section-s8 .wpo-contact-section-wrapper .wpo-section-title h2 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .wpo-contact-section .wpo-contact-section-wrapper .wpo-section-title,
+  .wpo-contact-section-s2 .wpo-contact-section-wrapper .wpo-section-title,
+  .wpo-contact-section-s3 .wpo-contact-section-wrapper .wpo-section-title,
+  .wpo-contact-section-s4 .wpo-contact-section-wrapper .wpo-section-title,
+  .wpo-contact-section-s5 .wpo-contact-section-wrapper .wpo-section-title,
+  .wpo-contact-section-s6 .wpo-contact-section-wrapper .wpo-section-title,
+  .wpo-contact-section-s7 .wpo-contact-section-wrapper .wpo-section-title,
+  .wpo-contact-section-s8 .wpo-contact-section-wrapper .wpo-section-title {
+    margin-bottom: 20px;
+  }
+}
+
+.wpo-contact-section .wpo-contact-section-wrapper .wpo-contact-form-area,
+.wpo-contact-section-s2 .wpo-contact-section-wrapper .wpo-contact-form-area,
+.wpo-contact-section-s3 .wpo-contact-section-wrapper .wpo-contact-form-area,
+.wpo-contact-section-s4 .wpo-contact-section-wrapper .wpo-contact-form-area,
+.wpo-contact-section-s5 .wpo-contact-section-wrapper .wpo-contact-form-area,
+.wpo-contact-section-s6 .wpo-contact-section-wrapper .wpo-contact-form-area,
+.wpo-contact-section-s7 .wpo-contact-section-wrapper .wpo-contact-form-area,
+.wpo-contact-section-s8 .wpo-contact-section-wrapper .wpo-contact-form-area {
+  padding: 80px 40px;
+  position: relative;
+  z-index: 99;
+  padding-top: 0;
+}
+
+@media (max-width: 1600px) {
+  .wpo-contact-section .wpo-contact-section-wrapper .wpo-contact-form-area,
+  .wpo-contact-section-s2 .wpo-contact-section-wrapper .wpo-contact-form-area,
+  .wpo-contact-section-s3 .wpo-contact-section-wrapper .wpo-contact-form-area,
+  .wpo-contact-section-s4 .wpo-contact-section-wrapper .wpo-contact-form-area,
+  .wpo-contact-section-s5 .wpo-contact-section-wrapper .wpo-contact-form-area,
+  .wpo-contact-section-s6 .wpo-contact-section-wrapper .wpo-contact-form-area,
+  .wpo-contact-section-s7 .wpo-contact-section-wrapper .wpo-contact-form-area,
+  .wpo-contact-section-s8 .wpo-contact-section-wrapper .wpo-contact-form-area {
+    padding: 60px 30px;
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 1199px) {
+  .wpo-contact-section .wpo-contact-section-wrapper .wpo-contact-form-area,
+  .wpo-contact-section-s2 .wpo-contact-section-wrapper .wpo-contact-form-area,
+  .wpo-contact-section-s3 .wpo-contact-section-wrapper .wpo-contact-form-area,
+  .wpo-contact-section-s4 .wpo-contact-section-wrapper .wpo-contact-form-area,
+  .wpo-contact-section-s5 .wpo-contact-section-wrapper .wpo-contact-form-area,
+  .wpo-contact-section-s6 .wpo-contact-section-wrapper .wpo-contact-form-area,
+  .wpo-contact-section-s7 .wpo-contact-section-wrapper .wpo-contact-form-area,
+  .wpo-contact-section-s8 .wpo-contact-section-wrapper .wpo-contact-form-area {
+    padding: 60px 20px;
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .wpo-contact-section .wpo-contact-section-wrapper .wpo-contact-form-area,
+  .wpo-contact-section-s2 .wpo-contact-section-wrapper .wpo-contact-form-area,
+  .wpo-contact-section-s3 .wpo-contact-section-wrapper .wpo-contact-form-area,
+  .wpo-contact-section-s4 .wpo-contact-section-wrapper .wpo-contact-form-area,
+  .wpo-contact-section-s5 .wpo-contact-section-wrapper .wpo-contact-form-area,
+  .wpo-contact-section-s6 .wpo-contact-section-wrapper .wpo-contact-form-area,
+  .wpo-contact-section-s7 .wpo-contact-section-wrapper .wpo-contact-form-area,
+  .wpo-contact-section-s8 .wpo-contact-section-wrapper .wpo-contact-form-area {
+    padding: 20px 10px;
+    padding-top: 0;
+  }
+}
+
+.wpo-contact-section
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .form-field,
+.wpo-contact-section-s2
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .form-field,
+.wpo-contact-section-s3
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .form-field,
+.wpo-contact-section-s4
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .form-field,
+.wpo-contact-section-s5
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .form-field,
+.wpo-contact-section-s6
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .form-field,
+.wpo-contact-section-s7
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .form-field,
+.wpo-contact-section-s8
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .form-field {
+  margin-bottom: 20px;
+}
+
+.wpo-contact-section
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .errorMessage,
+.wpo-contact-section-s2
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .errorMessage,
+.wpo-contact-section-s3
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .errorMessage,
+.wpo-contact-section-s4
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .errorMessage,
+.wpo-contact-section-s5
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .errorMessage,
+.wpo-contact-section-s6
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .errorMessage,
+.wpo-contact-section-s7
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .errorMessage,
+.wpo-contact-section-s8
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .errorMessage {
+  color: red;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.wpo-contact-section
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .react-datepicker-wrapper,
+.wpo-contact-section-s2
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .react-datepicker-wrapper,
+.wpo-contact-section-s3
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .react-datepicker-wrapper,
+.wpo-contact-section-s4
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .react-datepicker-wrapper,
+.wpo-contact-section-s5
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .react-datepicker-wrapper,
+.wpo-contact-section-s6
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .react-datepicker-wrapper,
+.wpo-contact-section-s7
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .react-datepicker-wrapper,
+.wpo-contact-section-s8
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .react-datepicker-wrapper {
+  width: 100%;
+}
+
+.wpo-contact-section
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .form-control,
+.wpo-contact-section
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .react-datepicker__input-container
+  input,
+.wpo-contact-section-s2
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .form-control,
+.wpo-contact-section-s2
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .react-datepicker__input-container
+  input,
+.wpo-contact-section-s3
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .form-control,
+.wpo-contact-section-s3
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .react-datepicker__input-container
+  input,
+.wpo-contact-section-s4
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .form-control,
+.wpo-contact-section-s4
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .react-datepicker__input-container
+  input,
+.wpo-contact-section-s5
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .form-control,
+.wpo-contact-section-s5
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .react-datepicker__input-container
+  input,
+.wpo-contact-section-s6
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .form-control,
+.wpo-contact-section-s6
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .react-datepicker__input-container
+  input,
+.wpo-contact-section-s7
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .form-control,
+.wpo-contact-section-s7
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .react-datepicker__input-container
+  input,
+.wpo-contact-section-s8
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .form-control,
+.wpo-contact-section-s8
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .react-datepicker__input-container
+  input {
+  width: 100%;
+  height: 50px;
+  border: 0;
+  border-bottom: 1px solid #d9d9d9;
+  color: #5c5c5c;
+  border-radius: 0;
+  font-size: 18px;
+}
+
+.wpo-contact-section
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .form-control:focus,
+.wpo-contact-section
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .react-datepicker__input-container
+  input:focus,
+.wpo-contact-section-s2
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .form-control:focus,
+.wpo-contact-section-s2
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .react-datepicker__input-container
+  input:focus,
+.wpo-contact-section-s3
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .form-control:focus,
+.wpo-contact-section-s3
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .react-datepicker__input-container
+  input:focus,
+.wpo-contact-section-s4
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .form-control:focus,
+.wpo-contact-section-s4
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .react-datepicker__input-container
+  input:focus,
+.wpo-contact-section-s5
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .form-control:focus,
+.wpo-contact-section-s5
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .react-datepicker__input-container
+  input:focus,
+.wpo-contact-section-s6
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .form-control:focus,
+.wpo-contact-section-s6
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .react-datepicker__input-container
+  input:focus,
+.wpo-contact-section-s7
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .form-control:focus,
+.wpo-contact-section-s7
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .react-datepicker__input-container
+  input:focus,
+.wpo-contact-section-s8
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .form-control:focus,
+.wpo-contact-section-s8
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .react-datepicker__input-container
+  input:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.wpo-contact-section
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .form-control::-webkit-calendar-picker-indicator,
+.wpo-contact-section
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .react-datepicker__input-container
+  input::-webkit-calendar-picker-indicator,
+.wpo-contact-section-s2
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .form-control::-webkit-calendar-picker-indicator,
+.wpo-contact-section-s2
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .react-datepicker__input-container
+  input::-webkit-calendar-picker-indicator,
+.wpo-contact-section-s3
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .form-control::-webkit-calendar-picker-indicator,
+.wpo-contact-section-s3
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .react-datepicker__input-container
+  input::-webkit-calendar-picker-indicator,
+.wpo-contact-section-s4
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .form-control::-webkit-calendar-picker-indicator,
+.wpo-contact-section-s4
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .react-datepicker__input-container
+  input::-webkit-calendar-picker-indicator,
+.wpo-contact-section-s5
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .form-control::-webkit-calendar-picker-indicator,
+.wpo-contact-section-s5
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .react-datepicker__input-container
+  input::-webkit-calendar-picker-indicator,
+.wpo-contact-section-s6
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .form-control::-webkit-calendar-picker-indicator,
+.wpo-contact-section-s6
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .react-datepicker__input-container
+  input::-webkit-calendar-picker-indicator,
+.wpo-contact-section-s7
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .form-control::-webkit-calendar-picker-indicator,
+.wpo-contact-section-s7
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .react-datepicker__input-container
+  input::-webkit-calendar-picker-indicator,
+.wpo-contact-section-s8
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .form-control::-webkit-calendar-picker-indicator,
+.wpo-contact-section-s8
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .react-datepicker__input-container
+  input::-webkit-calendar-picker-indicator {
+  -webkit-filter: invert(1);
+  filter: invert(1);
+}
+
+.wpo-contact-section
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .form-control::-webkit-input-placeholder,
+.wpo-contact-section-s2
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .form-control::-webkit-input-placeholder,
+.wpo-contact-section-s3
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .form-control::-webkit-input-placeholder,
+.wpo-contact-section-s4
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .form-control::-webkit-input-placeholder,
+.wpo-contact-section-s5
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .form-control::-webkit-input-placeholder,
+.wpo-contact-section-s6
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .form-control::-webkit-input-placeholder,
+.wpo-contact-section-s7
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .form-control::-webkit-input-placeholder,
+.wpo-contact-section-s8
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .form-control::-webkit-input-placeholder {
+  /* Edge */
+  color: #5c5c5c;
+}
+
+.wpo-contact-section
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .form-control:-ms-input-placeholder,
+.wpo-contact-section-s2
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .form-control:-ms-input-placeholder,
+.wpo-contact-section-s3
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .form-control:-ms-input-placeholder,
+.wpo-contact-section-s4
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .form-control:-ms-input-placeholder,
+.wpo-contact-section-s5
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .form-control:-ms-input-placeholder,
+.wpo-contact-section-s6
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .form-control:-ms-input-placeholder,
+.wpo-contact-section-s7
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .form-control:-ms-input-placeholder,
+.wpo-contact-section-s8
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .form-control:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #5c5c5c;
+}
+
+.wpo-contact-section
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .form-control::-ms-input-placeholder,
+.wpo-contact-section-s2
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .form-control::-ms-input-placeholder,
+.wpo-contact-section-s3
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .form-control::-ms-input-placeholder,
+.wpo-contact-section-s4
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .form-control::-ms-input-placeholder,
+.wpo-contact-section-s5
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .form-control::-ms-input-placeholder,
+.wpo-contact-section-s6
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .form-control::-ms-input-placeholder,
+.wpo-contact-section-s7
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .form-control::-ms-input-placeholder,
+.wpo-contact-section-s8
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .form-control::-ms-input-placeholder {
+  color: #5c5c5c;
+}
+
+.wpo-contact-section
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .form-control::placeholder,
+.wpo-contact-section-s2
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .form-control::placeholder,
+.wpo-contact-section-s3
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .form-control::placeholder,
+.wpo-contact-section-s4
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .form-control::placeholder,
+.wpo-contact-section-s5
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .form-control::placeholder,
+.wpo-contact-section-s6
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .form-control::placeholder,
+.wpo-contact-section-s7
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .form-control::placeholder,
+.wpo-contact-section-s8
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .form-control::placeholder {
+  color: #5c5c5c;
+}
+
+.wpo-contact-section
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  select.form-control,
+.wpo-contact-section-s2
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  select.form-control,
+.wpo-contact-section-s3
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  select.form-control,
+.wpo-contact-section-s4
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  select.form-control,
+.wpo-contact-section-s5
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  select.form-control,
+.wpo-contact-section-s6
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  select.form-control,
+.wpo-contact-section-s7
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  select.form-control,
+.wpo-contact-section-s8
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  select.form-control {
+  color: #5c5c5c;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  -moz-appearance: none;
+  background: transparent url(/images/select-icon2.png) no-repeat
+    calc(100% - 15px) center;
+  position: relative;
+}
+
+.wpo-contact-section
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  select.form-control
+  option,
+.wpo-contact-section-s2
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  select.form-control
+  option,
+.wpo-contact-section-s3
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  select.form-control
+  option,
+.wpo-contact-section-s4
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  select.form-control
+  option,
+.wpo-contact-section-s5
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  select.form-control
+  option,
+.wpo-contact-section-s6
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  select.form-control
+  option,
+.wpo-contact-section-s7
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  select.form-control
+  option,
+.wpo-contact-section-s8
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  select.form-control
+  option {
+  color: #5c5c5c;
+}
+
+.wpo-contact-section
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .react-datepicker__input-container
+  input,
+.wpo-contact-section-s2
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .react-datepicker__input-container
+  input,
+.wpo-contact-section-s3
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .react-datepicker__input-container
+  input,
+.wpo-contact-section-s4
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .react-datepicker__input-container
+  input,
+.wpo-contact-section-s5
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .react-datepicker__input-container
+  input,
+.wpo-contact-section-s6
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .react-datepicker__input-container
+  input,
+.wpo-contact-section-s7
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .react-datepicker__input-container
+  input,
+.wpo-contact-section-s8
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .react-datepicker__input-container
+  input {
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  -moz-appearance: none;
+  background: transparent url(/images/date2.png) no-repeat calc(100% - 15px)
+    center;
+}
+
+.wpo-contact-section
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons,
+.wpo-contact-section-s2
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons,
+.wpo-contact-section-s3
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons,
+.wpo-contact-section-s4
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons,
+.wpo-contact-section-s5
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons,
+.wpo-contact-section-s6
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons,
+.wpo-contact-section-s7
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons,
+.wpo-contact-section-s8
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px 0;
+}
+
+@media (max-width: 575px) {
+  .wpo-contact-section
+    .wpo-contact-section-wrapper
+    .wpo-contact-form-area
+    .radio-buttons,
+  .wpo-contact-section-s2
+    .wpo-contact-section-wrapper
+    .wpo-contact-form-area
+    .radio-buttons,
+  .wpo-contact-section-s3
+    .wpo-contact-section-wrapper
+    .wpo-contact-form-area
+    .radio-buttons,
+  .wpo-contact-section-s4
+    .wpo-contact-section-wrapper
+    .wpo-contact-form-area
+    .radio-buttons,
+  .wpo-contact-section-s5
+    .wpo-contact-section-wrapper
+    .wpo-contact-form-area
+    .radio-buttons,
+  .wpo-contact-section-s6
+    .wpo-contact-section-wrapper
+    .wpo-contact-form-area
+    .radio-buttons,
+  .wpo-contact-section-s7
+    .wpo-contact-section-wrapper
+    .wpo-contact-form-area
+    .radio-buttons,
+  .wpo-contact-section-s8
+    .wpo-contact-section-wrapper
+    .wpo-contact-form-area
+    .radio-buttons {
+    display: block;
+  }
+}
+
+.wpo-contact-section
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  p,
+.wpo-contact-section-s2
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  p,
+.wpo-contact-section-s3
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  p,
+.wpo-contact-section-s4
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  p,
+.wpo-contact-section-s5
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  p,
+.wpo-contact-section-s6
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  p,
+.wpo-contact-section-s7
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  p,
+.wpo-contact-section-s8
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  p {
+  margin-bottom: 0;
+}
+
+.wpo-contact-section
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  p
+  + p,
+.wpo-contact-section-s2
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  p
+  + p,
+.wpo-contact-section-s3
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  p
+  + p,
+.wpo-contact-section-s4
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  p
+  + p,
+.wpo-contact-section-s5
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  p
+  + p,
+.wpo-contact-section-s6
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  p
+  + p,
+.wpo-contact-section-s7
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  p
+  + p,
+.wpo-contact-section-s8
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  p
+  + p {
+  margin-left: 30px;
+}
+
+@media (max-width: 575px) {
+  .wpo-contact-section
+    .wpo-contact-section-wrapper
+    .wpo-contact-form-area
+    .radio-buttons
+    p
+    + p,
+  .wpo-contact-section-s2
+    .wpo-contact-section-wrapper
+    .wpo-contact-form-area
+    .radio-buttons
+    p
+    + p,
+  .wpo-contact-section-s3
+    .wpo-contact-section-wrapper
+    .wpo-contact-form-area
+    .radio-buttons
+    p
+    + p,
+  .wpo-contact-section-s4
+    .wpo-contact-section-wrapper
+    .wpo-contact-form-area
+    .radio-buttons
+    p
+    + p,
+  .wpo-contact-section-s5
+    .wpo-contact-section-wrapper
+    .wpo-contact-form-area
+    .radio-buttons
+    p
+    + p,
+  .wpo-contact-section-s6
+    .wpo-contact-section-wrapper
+    .wpo-contact-form-area
+    .radio-buttons
+    p
+    + p,
+  .wpo-contact-section-s7
+    .wpo-contact-section-wrapper
+    .wpo-contact-form-area
+    .radio-buttons
+    p
+    + p,
+  .wpo-contact-section-s8
+    .wpo-contact-section-wrapper
+    .wpo-contact-form-area
+    .radio-buttons
+    p
+    + p {
+    margin-left: 0px;
+  }
+}
+
+.wpo-contact-section
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:checked,
+.wpo-contact-section
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:not(:checked),
+.wpo-contact-section-s2
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:checked,
+.wpo-contact-section-s2
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:not(:checked),
+.wpo-contact-section-s3
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:checked,
+.wpo-contact-section-s3
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:not(:checked),
+.wpo-contact-section-s4
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:checked,
+.wpo-contact-section-s4
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:not(:checked),
+.wpo-contact-section-s5
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:checked,
+.wpo-contact-section-s5
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:not(:checked),
+.wpo-contact-section-s6
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:checked,
+.wpo-contact-section-s6
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:not(:checked),
+.wpo-contact-section-s7
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:checked,
+.wpo-contact-section-s7
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:not(:checked),
+.wpo-contact-section-s8
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:checked,
+.wpo-contact-section-s8
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:not(:checked) {
+  position: absolute;
+  left: -9999px;
+}
+
+.wpo-contact-section
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:checked
+  + label,
+.wpo-contact-section
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:not(:checked)
+  + label,
+.wpo-contact-section-s2
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:checked
+  + label,
+.wpo-contact-section-s2
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:not(:checked)
+  + label,
+.wpo-contact-section-s3
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:checked
+  + label,
+.wpo-contact-section-s3
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:not(:checked)
+  + label,
+.wpo-contact-section-s4
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:checked
+  + label,
+.wpo-contact-section-s4
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:not(:checked)
+  + label,
+.wpo-contact-section-s5
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:checked
+  + label,
+.wpo-contact-section-s5
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:not(:checked)
+  + label,
+.wpo-contact-section-s6
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:checked
+  + label,
+.wpo-contact-section-s6
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:not(:checked)
+  + label,
+.wpo-contact-section-s7
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:checked
+  + label,
+.wpo-contact-section-s7
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:not(:checked)
+  + label,
+.wpo-contact-section-s8
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:checked
+  + label,
+.wpo-contact-section-s8
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:not(:checked)
+  + label {
+  position: relative;
+  padding-left: 28px;
+  cursor: pointer;
+  line-height: 20px;
+  display: inline-block;
+  color: #666;
+}
+
+.wpo-contact-section
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:checked
+  + label:before,
+.wpo-contact-section
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:not(:checked)
+  + label:before,
+.wpo-contact-section-s2
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:checked
+  + label:before,
+.wpo-contact-section-s2
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:not(:checked)
+  + label:before,
+.wpo-contact-section-s3
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:checked
+  + label:before,
+.wpo-contact-section-s3
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:not(:checked)
+  + label:before,
+.wpo-contact-section-s4
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:checked
+  + label:before,
+.wpo-contact-section-s4
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:not(:checked)
+  + label:before,
+.wpo-contact-section-s5
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:checked
+  + label:before,
+.wpo-contact-section-s5
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:not(:checked)
+  + label:before,
+.wpo-contact-section-s6
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:checked
+  + label:before,
+.wpo-contact-section-s6
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:not(:checked)
+  + label:before,
+.wpo-contact-section-s7
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:checked
+  + label:before,
+.wpo-contact-section-s7
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:not(:checked)
+  + label:before,
+.wpo-contact-section-s8
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:checked
+  + label:before,
+.wpo-contact-section-s8
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:not(:checked)
+  + label:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 18px;
+  height: 18px;
+  border: 1px solid #ddd;
+  border-radius: 100%;
+  background: #fff;
+}
+
+.wpo-contact-section
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:checked
+  + label:after,
+.wpo-contact-section
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:not(:checked)
+  + label:after,
+.wpo-contact-section-s2
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:checked
+  + label:after,
+.wpo-contact-section-s2
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:not(:checked)
+  + label:after,
+.wpo-contact-section-s3
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:checked
+  + label:after,
+.wpo-contact-section-s3
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:not(:checked)
+  + label:after,
+.wpo-contact-section-s4
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:checked
+  + label:after,
+.wpo-contact-section-s4
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:not(:checked)
+  + label:after,
+.wpo-contact-section-s5
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:checked
+  + label:after,
+.wpo-contact-section-s5
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:not(:checked)
+  + label:after,
+.wpo-contact-section-s6
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:checked
+  + label:after,
+.wpo-contact-section-s6
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:not(:checked)
+  + label:after,
+.wpo-contact-section-s7
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:checked
+  + label:after,
+.wpo-contact-section-s7
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:not(:checked)
+  + label:after,
+.wpo-contact-section-s8
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:checked
+  + label:after,
+.wpo-contact-section-s8
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:not(:checked)
+  + label:after {
+  content: '';
+  width: 12px;
+  height: 12px;
+  background: #657150;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  border-radius: 100%;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.wpo-contact-section
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:not(:checked)
+  + label:after,
+.wpo-contact-section-s2
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:not(:checked)
+  + label:after,
+.wpo-contact-section-s3
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:not(:checked)
+  + label:after,
+.wpo-contact-section-s4
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:not(:checked)
+  + label:after,
+.wpo-contact-section-s5
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:not(:checked)
+  + label:after,
+.wpo-contact-section-s6
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:not(:checked)
+  + label:after,
+.wpo-contact-section-s7
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:not(:checked)
+  + label:after,
+.wpo-contact-section-s8
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:not(:checked)
+  + label:after {
+  opacity: 0;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+}
+
+.wpo-contact-section
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:checked
+  + label:after,
+.wpo-contact-section-s2
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:checked
+  + label:after,
+.wpo-contact-section-s3
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:checked
+  + label:after,
+.wpo-contact-section-s4
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:checked
+  + label:after,
+.wpo-contact-section-s5
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:checked
+  + label:after,
+.wpo-contact-section-s6
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:checked
+  + label:after,
+.wpo-contact-section-s7
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:checked
+  + label:after,
+.wpo-contact-section-s8
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .radio-buttons
+  [type='radio']:checked
+  + label:after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+@media (max-width: 1399px) {
+  .wpo-contact-section
+    .wpo-contact-section-wrapper
+    .wpo-contact-form-area
+    .radio-buttons
+    label,
+  .wpo-contact-section-s2
+    .wpo-contact-section-wrapper
+    .wpo-contact-form-area
+    .radio-buttons
+    label,
+  .wpo-contact-section-s3
+    .wpo-contact-section-wrapper
+    .wpo-contact-form-area
+    .radio-buttons
+    label,
+  .wpo-contact-section-s4
+    .wpo-contact-section-wrapper
+    .wpo-contact-form-area
+    .radio-buttons
+    label,
+  .wpo-contact-section-s5
+    .wpo-contact-section-wrapper
+    .wpo-contact-form-area
+    .radio-buttons
+    label,
+  .wpo-contact-section-s6
+    .wpo-contact-section-wrapper
+    .wpo-contact-form-area
+    .radio-buttons
+    label,
+  .wpo-contact-section-s7
+    .wpo-contact-section-wrapper
+    .wpo-contact-form-area
+    .radio-buttons
+    label,
+  .wpo-contact-section-s8
+    .wpo-contact-section-wrapper
+    .wpo-contact-form-area
+    .radio-buttons
+    label {
+    font-size: 16px;
+  }
+}
+
+.wpo-contact-section
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .select.last,
+.wpo-contact-section-s2
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .select.last,
+.wpo-contact-section-s3
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .select.last,
+.wpo-contact-section-s4
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .select.last,
+.wpo-contact-section-s5
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .select.last,
+.wpo-contact-section-s6
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .select.last,
+.wpo-contact-section-s7
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .select.last,
+.wpo-contact-section-s8
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .select.last {
+  margin-bottom: 50px;
+}
+
+.wpo-contact-section
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .submit-area,
+.wpo-contact-section-s2
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .submit-area,
+.wpo-contact-section-s3
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .submit-area,
+.wpo-contact-section-s4
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .submit-area,
+.wpo-contact-section-s5
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .submit-area,
+.wpo-contact-section-s6
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .submit-area,
+.wpo-contact-section-s7
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .submit-area,
+.wpo-contact-section-s8
+  .wpo-contact-section-wrapper
+  .wpo-contact-form-area
+  .submit-area {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.wpo-contact-section .bottom-bg,
+.wpo-contact-section-s2 .bottom-bg,
+.wpo-contact-section-s3 .bottom-bg,
+.wpo-contact-section-s4 .bottom-bg,
+.wpo-contact-section-s5 .bottom-bg,
+.wpo-contact-section-s6 .bottom-bg,
+.wpo-contact-section-s7 .bottom-bg,
+.wpo-contact-section-s8 .bottom-bg {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  width: 100%;
+}
+
+@media (max-width: 1100px) {
+  .wpo-contact-section .bottom-bg,
+  .wpo-contact-section-s2 .bottom-bg,
+  .wpo-contact-section-s3 .bottom-bg,
+  .wpo-contact-section-s4 .bottom-bg,
+  .wpo-contact-section-s5 .bottom-bg,
+  .wpo-contact-section-s6 .bottom-bg,
+  .wpo-contact-section-s7 .bottom-bg,
+  .wpo-contact-section-s8 .bottom-bg {
+    bottom: -30px;
+  }
+}
+
+@media (max-width: 870px) {
+  .wpo-contact-section .bottom-bg,
+  .wpo-contact-section-s2 .bottom-bg,
+  .wpo-contact-section-s3 .bottom-bg,
+  .wpo-contact-section-s4 .bottom-bg,
+  .wpo-contact-section-s5 .bottom-bg,
+  .wpo-contact-section-s6 .bottom-bg,
+  .wpo-contact-section-s7 .bottom-bg,
+  .wpo-contact-section-s8 .bottom-bg {
+    bottom: -40px;
+  }
+}
+
+@media (max-width: 575px) {
+  .wpo-contact-section .bottom-bg,
+  .wpo-contact-section-s2 .bottom-bg,
+  .wpo-contact-section-s3 .bottom-bg,
+  .wpo-contact-section-s4 .bottom-bg,
+  .wpo-contact-section-s5 .bottom-bg,
+  .wpo-contact-section-s6 .bottom-bg,
+  .wpo-contact-section-s7 .bottom-bg,
+  .wpo-contact-section-s8 .bottom-bg {
+    bottom: -60px;
+  }
+}
+
+.wpo-contact-section .bottom-bg svg,
+.wpo-contact-section-s2 .bottom-bg svg,
+.wpo-contact-section-s3 .bottom-bg svg,
+.wpo-contact-section-s4 .bottom-bg svg,
+.wpo-contact-section-s5 .bottom-bg svg,
+.wpo-contact-section-s6 .bottom-bg svg,
+.wpo-contact-section-s7 .bottom-bg svg,
+.wpo-contact-section-s8 .bottom-bg svg {
+  width: 100%;
+  height: 634px;
+}
+
+@media (min-width: 1950px) {
+  .wpo-contact-section .bottom-bg svg,
+  .wpo-contact-section-s2 .bottom-bg svg,
+  .wpo-contact-section-s3 .bottom-bg svg,
+  .wpo-contact-section-s4 .bottom-bg svg,
+  .wpo-contact-section-s5 .bottom-bg svg,
+  .wpo-contact-section-s6 .bottom-bg svg,
+  .wpo-contact-section-s7 .bottom-bg svg,
+  .wpo-contact-section-s8 .bottom-bg svg {
+    height: 1000px;
+  }
+}
+
+@media (max-width: 1700px) {
+  .wpo-contact-section .bottom-bg svg,
+  .wpo-contact-section-s2 .bottom-bg svg,
+  .wpo-contact-section-s3 .bottom-bg svg,
+  .wpo-contact-section-s4 .bottom-bg svg,
+  .wpo-contact-section-s5 .bottom-bg svg,
+  .wpo-contact-section-s6 .bottom-bg svg,
+  .wpo-contact-section-s7 .bottom-bg svg,
+  .wpo-contact-section-s8 .bottom-bg svg {
+    height: 555px;
+  }
+}
+
+@media (max-width: 1500px) {
+  .wpo-contact-section .bottom-bg svg,
+  .wpo-contact-section-s2 .bottom-bg svg,
+  .wpo-contact-section-s3 .bottom-bg svg,
+  .wpo-contact-section-s4 .bottom-bg svg,
+  .wpo-contact-section-s5 .bottom-bg svg,
+  .wpo-contact-section-s6 .bottom-bg svg,
+  .wpo-contact-section-s7 .bottom-bg svg,
+  .wpo-contact-section-s8 .bottom-bg svg {
+    height: 505px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .wpo-contact-section .bottom-bg svg,
+  .wpo-contact-section-s2 .bottom-bg svg,
+  .wpo-contact-section-s3 .bottom-bg svg,
+  .wpo-contact-section-s4 .bottom-bg svg,
+  .wpo-contact-section-s5 .bottom-bg svg,
+  .wpo-contact-section-s6 .bottom-bg svg,
+  .wpo-contact-section-s7 .bottom-bg svg,
+  .wpo-contact-section-s8 .bottom-bg svg {
+    height: 465px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .wpo-contact-section .bottom-bg svg,
+  .wpo-contact-section-s2 .bottom-bg svg,
+  .wpo-contact-section-s3 .bottom-bg svg,
+  .wpo-contact-section-s4 .bottom-bg svg,
+  .wpo-contact-section-s5 .bottom-bg svg,
+  .wpo-contact-section-s6 .bottom-bg svg,
+  .wpo-contact-section-s7 .bottom-bg svg,
+  .wpo-contact-section-s8 .bottom-bg svg {
+    height: 425px;
+  }
+}
+
+@media (max-width: 1160px) {
+  .wpo-contact-section .bottom-bg svg,
+  .wpo-contact-section-s2 .bottom-bg svg,
+  .wpo-contact-section-s3 .bottom-bg svg,
+  .wpo-contact-section-s4 .bottom-bg svg,
+  .wpo-contact-section-s5 .bottom-bg svg,
+  .wpo-contact-section-s6 .bottom-bg svg,
+  .wpo-contact-section-s7 .bottom-bg svg,
+  .wpo-contact-section-s8 .bottom-bg svg {
+    height: 380px;
+  }
+}
+
+@media (max-width: 870px) {
+  .wpo-contact-section .bottom-bg svg,
+  .wpo-contact-section-s2 .bottom-bg svg,
+  .wpo-contact-section-s3 .bottom-bg svg,
+  .wpo-contact-section-s4 .bottom-bg svg,
+  .wpo-contact-section-s5 .bottom-bg svg,
+  .wpo-contact-section-s6 .bottom-bg svg,
+  .wpo-contact-section-s7 .bottom-bg svg,
+  .wpo-contact-section-s8 .bottom-bg svg {
+    height: 320px;
+  }
+}
+
+@media (max-width: 767px) {
+  .wpo-contact-section .bottom-bg svg,
+  .wpo-contact-section-s2 .bottom-bg svg,
+  .wpo-contact-section-s3 .bottom-bg svg,
+  .wpo-contact-section-s4 .bottom-bg svg,
+  .wpo-contact-section-s5 .bottom-bg svg,
+  .wpo-contact-section-s6 .bottom-bg svg,
+  .wpo-contact-section-s7 .bottom-bg svg,
+  .wpo-contact-section-s8 .bottom-bg svg {
+    height: 300px;
+  }
+}
+
+@media (max-width: 575px) {
+  .wpo-contact-section .bottom-bg svg,
+  .wpo-contact-section-s2 .bottom-bg svg,
+  .wpo-contact-section-s3 .bottom-bg svg,
+  .wpo-contact-section-s4 .bottom-bg svg,
+  .wpo-contact-section-s5 .bottom-bg svg,
+  .wpo-contact-section-s6 .bottom-bg svg,
+  .wpo-contact-section-s7 .bottom-bg svg,
+  .wpo-contact-section-s8 .bottom-bg svg {
+    height: 280px;
+  }
+}
+
+@media (max-width: 450px) {
+  .wpo-contact-section .bottom-bg svg,
+  .wpo-contact-section-s2 .bottom-bg svg,
+  .wpo-contact-section-s3 .bottom-bg svg,
+  .wpo-contact-section-s4 .bottom-bg svg,
+  .wpo-contact-section-s5 .bottom-bg svg,
+  .wpo-contact-section-s6 .bottom-bg svg,
+  .wpo-contact-section-s7 .bottom-bg svg,
+  .wpo-contact-section-s8 .bottom-bg svg {
+    height: 200px;
+  }
+}
+
+.wpo-contact-section .bottom-bg svg .bg-path,
+.wpo-contact-section-s2 .bottom-bg svg .bg-path,
+.wpo-contact-section-s3 .bottom-bg svg .bg-path,
+.wpo-contact-section-s4 .bottom-bg svg .bg-path,
+.wpo-contact-section-s5 .bottom-bg svg .bg-path,
+.wpo-contact-section-s6 .bottom-bg svg .bg-path,
+.wpo-contact-section-s7 .bottom-bg svg .bg-path,
+.wpo-contact-section-s8 .bottom-bg svg .bg-path {
+  fill: #a5aa9c;
+}
+
+.wpo-contact-section .bottom-bg svg .bg-stroke,
+.wpo-contact-section-s2 .bottom-bg svg .bg-stroke,
+.wpo-contact-section-s3 .bottom-bg svg .bg-stroke,
+.wpo-contact-section-s4 .bottom-bg svg .bg-stroke,
+.wpo-contact-section-s5 .bottom-bg svg .bg-stroke,
+.wpo-contact-section-s6 .bottom-bg svg .bg-stroke,
+.wpo-contact-section-s7 .bottom-bg svg .bg-stroke,
+.wpo-contact-section-s8 .bottom-bg svg .bg-stroke {
+  stroke: #a5aa9c;
+}
+
+.wpo-contact-section .bottom-bg .shape-1,
+.wpo-contact-section-s2 .bottom-bg .shape-1,
+.wpo-contact-section-s3 .bottom-bg .shape-1,
+.wpo-contact-section-s4 .bottom-bg .shape-1,
+.wpo-contact-section-s5 .bottom-bg .shape-1,
+.wpo-contact-section-s6 .bottom-bg .shape-1,
+.wpo-contact-section-s7 .bottom-bg .shape-1,
+.wpo-contact-section-s8 .bottom-bg .shape-1 {
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+  -webkit-animation: bounce 3s linear infinite;
+  animation: bounce 3s linear infinite;
+}
+
+.wpo-contact-section .bottom-bg .shape-2,
+.wpo-contact-section-s2 .bottom-bg .shape-2,
+.wpo-contact-section-s3 .bottom-bg .shape-2,
+.wpo-contact-section-s4 .bottom-bg .shape-2,
+.wpo-contact-section-s5 .bottom-bg .shape-2,
+.wpo-contact-section-s6 .bottom-bg .shape-2,
+.wpo-contact-section-s7 .bottom-bg .shape-2,
+.wpo-contact-section-s8 .bottom-bg .shape-2 {
+  position: absolute;
+  left: 68px;
+  bottom: -25px;
+}
+
+@media (max-width: 1600px) {
+  .wpo-contact-section .bottom-bg .shape-2,
+  .wpo-contact-section-s2 .bottom-bg .shape-2,
+  .wpo-contact-section-s3 .bottom-bg .shape-2,
+  .wpo-contact-section-s4 .bottom-bg .shape-2,
+  .wpo-contact-section-s5 .bottom-bg .shape-2,
+  .wpo-contact-section-s6 .bottom-bg .shape-2,
+  .wpo-contact-section-s7 .bottom-bg .shape-2,
+  .wpo-contact-section-s8 .bottom-bg .shape-2 {
+    max-width: 20%;
+  }
+}
+
+.wpo-contact-section .bottom-bg .shape-3,
+.wpo-contact-section-s2 .bottom-bg .shape-3,
+.wpo-contact-section-s3 .bottom-bg .shape-3,
+.wpo-contact-section-s4 .bottom-bg .shape-3,
+.wpo-contact-section-s5 .bottom-bg .shape-3,
+.wpo-contact-section-s6 .bottom-bg .shape-3,
+.wpo-contact-section-s7 .bottom-bg .shape-3,
+.wpo-contact-section-s8 .bottom-bg .shape-3 {
+  position: absolute;
+  left: 27%;
+  bottom: -25px;
+}
+
+@media (max-width: 1600px) {
+  .wpo-contact-section .bottom-bg .shape-3,
+  .wpo-contact-section-s2 .bottom-bg .shape-3,
+  .wpo-contact-section-s3 .bottom-bg .shape-3,
+  .wpo-contact-section-s4 .bottom-bg .shape-3,
+  .wpo-contact-section-s5 .bottom-bg .shape-3,
+  .wpo-contact-section-s6 .bottom-bg .shape-3,
+  .wpo-contact-section-s7 .bottom-bg .shape-3,
+  .wpo-contact-section-s8 .bottom-bg .shape-3 {
+    max-width: 10%;
+  }
+}
+
+.wpo-contact-section .bottom-bg .shape-4,
+.wpo-contact-section-s2 .bottom-bg .shape-4,
+.wpo-contact-section-s3 .bottom-bg .shape-4,
+.wpo-contact-section-s4 .bottom-bg .shape-4,
+.wpo-contact-section-s5 .bottom-bg .shape-4,
+.wpo-contact-section-s6 .bottom-bg .shape-4,
+.wpo-contact-section-s7 .bottom-bg .shape-4,
+.wpo-contact-section-s8 .bottom-bg .shape-4 {
+  position: absolute;
+  left: 65%;
+  bottom: 0;
+  -webkit-animation: bounce 3s linear infinite;
+  animation: bounce 3s linear infinite;
+}
+
+@media (max-width: 1600px) {
+  .wpo-contact-section .bottom-bg .shape-4,
+  .wpo-contact-section-s2 .bottom-bg .shape-4,
+  .wpo-contact-section-s3 .bottom-bg .shape-4,
+  .wpo-contact-section-s4 .bottom-bg .shape-4,
+  .wpo-contact-section-s5 .bottom-bg .shape-4,
+  .wpo-contact-section-s6 .bottom-bg .shape-4,
+  .wpo-contact-section-s7 .bottom-bg .shape-4,
+  .wpo-contact-section-s8 .bottom-bg .shape-4 {
+    max-width: 10%;
+  }
+}
+
+.wpo-contact-section .bottom-bg .shape-5,
+.wpo-contact-section-s2 .bottom-bg .shape-5,
+.wpo-contact-section-s3 .bottom-bg .shape-5,
+.wpo-contact-section-s4 .bottom-bg .shape-5,
+.wpo-contact-section-s5 .bottom-bg .shape-5,
+.wpo-contact-section-s6 .bottom-bg .shape-5,
+.wpo-contact-section-s7 .bottom-bg .shape-5,
+.wpo-contact-section-s8 .bottom-bg .shape-5 {
+  position: absolute;
+  right: 15%;
+  bottom: 0;
+}
+
+@media (max-width: 1600px) {
+  .wpo-contact-section .bottom-bg .shape-5,
+  .wpo-contact-section-s2 .bottom-bg .shape-5,
+  .wpo-contact-section-s3 .bottom-bg .shape-5,
+  .wpo-contact-section-s4 .bottom-bg .shape-5,
+  .wpo-contact-section-s5 .bottom-bg .shape-5,
+  .wpo-contact-section-s6 .bottom-bg .shape-5,
+  .wpo-contact-section-s7 .bottom-bg .shape-5,
+  .wpo-contact-section-s8 .bottom-bg .shape-5 {
+    max-width: 10%;
+  }
+}
+
+.wpo-contact-section .bottom-bg .shape-6,
+.wpo-contact-section-s2 .bottom-bg .shape-6,
+.wpo-contact-section-s3 .bottom-bg .shape-6,
+.wpo-contact-section-s4 .bottom-bg .shape-6,
+.wpo-contact-section-s5 .bottom-bg .shape-6,
+.wpo-contact-section-s6 .bottom-bg .shape-6,
+.wpo-contact-section-s7 .bottom-bg .shape-6,
+.wpo-contact-section-s8 .bottom-bg .shape-6 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+@media (max-width: 1600px) {
+  .wpo-contact-section .bottom-bg .shape-6,
+  .wpo-contact-section-s2 .bottom-bg .shape-6,
+  .wpo-contact-section-s3 .bottom-bg .shape-6,
+  .wpo-contact-section-s4 .bottom-bg .shape-6,
+  .wpo-contact-section-s5 .bottom-bg .shape-6,
+  .wpo-contact-section-s6 .bottom-bg .shape-6,
+  .wpo-contact-section-s7 .bottom-bg .shape-6,
+  .wpo-contact-section-s8 .bottom-bg .shape-6 {
+    max-width: 10%;
+  }
+}
+
+@media (max-width: 991px) {
+  .wpo-contact-section .bottom-bg .shape-6,
+  .wpo-contact-section-s2 .bottom-bg .shape-6,
+  .wpo-contact-section-s3 .bottom-bg .shape-6,
+  .wpo-contact-section-s4 .bottom-bg .shape-6,
+  .wpo-contact-section-s5 .bottom-bg .shape-6,
+  .wpo-contact-section-s6 .bottom-bg .shape-6,
+  .wpo-contact-section-s7 .bottom-bg .shape-6,
+  .wpo-contact-section-s8 .bottom-bg .shape-6 {
+    max-width: 20%;
+  }
+}
+
+@media (max-width: 767px) {
+  .wpo-contact-section .bottom-bg .shape-6,
+  .wpo-contact-section-s2 .bottom-bg .shape-6,
+  .wpo-contact-section-s3 .bottom-bg .shape-6,
+  .wpo-contact-section-s4 .bottom-bg .shape-6,
+  .wpo-contact-section-s5 .bottom-bg .shape-6,
+  .wpo-contact-section-s6 .bottom-bg .shape-6,
+  .wpo-contact-section-s7 .bottom-bg .shape-6,
+  .wpo-contact-section-s8 .bottom-bg .shape-6 {
+    max-width: 30%;
+  }
+}
+
+.wpo-contact-section.pt-120,
+.wpo-contact-section-s2.pt-120,
+.wpo-contact-section-s3.pt-120,
+.wpo-contact-section-s4.pt-120,
+.wpo-contact-section-s5.pt-120,
+.wpo-contact-section-s6.pt-120,
+.wpo-contact-section-s7.pt-120,
+.wpo-contact-section-s8.pt-120 {
+  padding-top: 120px;
+}
+
+@media (max-width: 991px) {
+  .wpo-contact-section.pt-120,
+  .wpo-contact-section-s2.pt-120,
+  .wpo-contact-section-s3.pt-120,
+  .wpo-contact-section-s4.pt-120,
+  .wpo-contact-section-s5.pt-120,
+  .wpo-contact-section-s6.pt-120,
+  .wpo-contact-section-s7.pt-120,
+  .wpo-contact-section-s8.pt-120 {
+    padding-top: 90px;
+  }
+}
+
+@media (max-width: 767px) {
+  .wpo-contact-section.pt-120,
+  .wpo-contact-section-s2.pt-120,
+  .wpo-contact-section-s3.pt-120,
+  .wpo-contact-section-s4.pt-120,
+  .wpo-contact-section-s5.pt-120,
+  .wpo-contact-section-s6.pt-120,
+  .wpo-contact-section-s7.pt-120,
+  .wpo-contact-section-s8.pt-120 {
+    padding-top: 80px;
+  }
+}
+
+@media (max-width: 575px) {
+  .wpo-contact-section.pt-120,
+  .wpo-contact-section-s2.pt-120,
+  .wpo-contact-section-s3.pt-120,
+  .wpo-contact-section-s4.pt-120,
+  .wpo-contact-section-s5.pt-120,
+  .wpo-contact-section-s6.pt-120,
+  .wpo-contact-section-s7.pt-120,
+  .wpo-contact-section-s8.pt-120 {
+    padding-top: 60px;
+  }
+}

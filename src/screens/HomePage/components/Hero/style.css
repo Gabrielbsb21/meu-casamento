@@ -1,6 +1,34 @@
 #hero {
-  padding-bottom: 180px;
+  background: #fcfdfa;
+  flex-shrink: 0;
+  height: 950px;
+  display: flex;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+}
+
+#hero .hero-container {
+  width: 100%;
   height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#hero .hero-inner {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  background-size: cover;
+  background-position: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
 }
 
 .wpo-static-hero-inner {
@@ -8,7 +36,7 @@
   padding-top: 120px;
 }
 
-.slide-title {
+.slide-title h2 {
   color: #101010;
   text-align: center;
   font-size: 90px;
@@ -183,43 +211,41 @@
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1800px) {
   .wpo-static-hero-inner {
-    padding-bottom: 0;
-    padding-left: 0px;
-    text-align: center;
-    padding-top: 70px;
-  }
-
-  .slide-title {
-    font-size: 40px;
-    line-height: 55px;
-    margin-bottom: 20px;
-  }
-
-  .slide-text p {
-    font-size: 18px;
-    line-height: 30px;
-    margin-bottom: 26px;
-  }
-
-  .wpo-wedding-date {
-    display: flex;
-    justify-content: center;
-    margin-top: 0;
+    padding-left: 140px;
   }
 }
 
-@media (max-width: 767px) {
-  .slide-title {
-    font-size: 30px;
-    line-height: 36px;
+@media (max-width: 1600px) {
+  .wpo-static-hero-inner {
+    padding-left: 70px;
   }
 
-  .slide-text p {
-    font-size: 16px;
-    line-height: 22px;
-    margin-bottom: 0px;
+  .static-hero-right {
+    right: 200px;
+  }
+
+  .right-shape svg {
+    width: 550px;
+    height: 497px;
+  }
+}
+
+@media (max-width: 1500px) {
+  .slide-title h2 {
+    font-size: 68px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .wpo-static-hero-inner {
+    padding-left: 20px;
+  }
+
+  .static-hero-right {
+    right: 150px;
+    width: 430px;
   }
 }
 
@@ -238,6 +264,68 @@
     left: -15%;
     top: -10%;
     width: 140%;
+  }
+
+  .slide-title h2 {
+    font-size: 50px;
+  }
+
+  .slide-text p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 991px) {
+  .wpo-static-hero-inner {
+    padding-bottom: 0;
+    padding-left: 0px;
+    text-align: center;
+    padding-top: 70px;
+  }
+
+  .slide-title h2 {
+    font-size: 40px;
+    line-height: 55px;
+    margin-bottom: 20px;
+  }
+
+  .slide-text p {
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 26px;
+  }
+
+  .wpo-wedding-date {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+  }
+
+  .static-hero-right {
+    position: relative;
+    margin: 0;
+    right: auto;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    top: auto;
+  }
+
+  .right-shape {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .slide-title h2 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  .slide-text p {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 0px;
   }
 }
 
@@ -265,52 +353,8 @@
   .static-hero-shape-4 {
     width: 70%;
   }
-}
 
-@media (max-width: 991px) {
-  .static-hero-right {
-    position: relative;
-    margin: 0;
-    right: auto;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
-    top: auto;
-  }
-
-  .right-shape {
-    display: none;
-  }
-}
-
-@media (max-width: 1800px) {
   .wpo-static-hero-inner {
-    padding-left: 140px;
-  }
-}
-
-@media (max-width: 1600px) {
-  .wpo-static-hero-inner {
-    padding-left: 70px;
-  }
-
-  .static-hero-right {
-    right: 200px;
-  }
-
-  .right-shape svg {
-    width: 550px;
-    height: 497px;
-  }
-}
-
-@media (max-width: 1400px) {
-  .wpo-static-hero-inner {
-    padding-left: 20px;
-  }
-
-  .static-hero-right {
-    right: 150px;
-    width: 430px;
+    width: 100%;
   }
 }

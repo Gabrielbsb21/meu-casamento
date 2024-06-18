@@ -29,7 +29,7 @@ const Footer = () => {
                       <Link href="/#rsvp">RSVP</Link>
                     </li>
                     <li>
-                      <Link href="/#contact">Contato</Link>
+                      <Link href="/gift">Presentes</Link>
                     </li>
                   </ul>
                 </nav>

@@ -75,10 +75,10 @@ const Header = () => {
                 </li>
                 <li>
                   <Link
-                    href="/#contact"
+                    href="/gift"
                     className="font-medium text-xl header-item"
                   >
-                    Contato
+                    Presentes
                   </Link>
                 </li>
               </ul>

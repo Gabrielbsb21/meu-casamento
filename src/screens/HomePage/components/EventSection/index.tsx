@@ -50,7 +50,7 @@ const EventSection: React.FC<EventSectionProps> = (props) => {
           <h2>Quando & Onde</h2>
         </header>
         <div className="wpo-event-wrap">
-          <div className="flex" style={{ justifyContent: 'center', gap: '2rem', flexWrap: 'wrap'}}>
+          <div className="flex" style={{ justifyContent: 'center', gap: '2rem'}}>
             {events.map((event, eitem) => (
               <div className="w-full md:w-1/2 lg:w-1/2 xl:w-1/3" key={eitem}>
                 <Slide direction="up" duration={event.animation} triggerOnce>

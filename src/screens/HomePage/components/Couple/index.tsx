@@ -7,7 +7,7 @@ import './style.css';
 
 const Couple = () => {
   return (
-    <section className="wpo-couple-section">
+    <section className="wpo-couple-section" id='about'>
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 gap-4">
           <article className="couple-item">

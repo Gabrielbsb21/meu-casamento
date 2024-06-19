@@ -13,7 +13,7 @@ import './style.css';
 
 const StorySection = () => {
   return (
-    <section className="wpo-story-section">
+    <section className="wpo-story-section" id='history'>
       <div className="container mx-auto px-4">
         <header className="text-center wpo-section-title">
           <span>Nossa História</span>

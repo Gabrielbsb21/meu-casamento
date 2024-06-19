@@ -40,16 +40,21 @@ const MobileMenu = () => {
               <Link href="/#about" className='font-medium text-xl text-white'>Sobre</Link>
             </li>
             <li>
-              <Link href="/#events" className='font-medium text-xl text-white'>Eventos</Link>
+              <Link href="/#history" className='font-medium text-xl text-white'>História</Link>
             </li>
+            <li>
+              <Link href="/#event" className='font-medium text-xl text-white'>Evento</Link>
+            </li>
+            {/*
             <li>
               <Link href="/#gallery" className='font-medium text-xl text-white'>Galeria</Link>
             </li>
+            */}
             <li>
               <Link href="/#rsvp" className='font-medium text-xl text-white'>RSVP</Link>
             </li>
             <li>
-              <Link href="/#contact" className='font-medium text-xl text-white'>Contato</Link>
+              <Link href="/#gift" className='font-medium text-xl text-white'>Presentes</Link>
             </li>
           </ul>
         </nav>

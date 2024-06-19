@@ -19,13 +19,13 @@ interface RsvpSectionProps {
 
 const RsvpSection: React.FC<RsvpSectionProps> = ({ rClass }) => {
   return (
-    <section className={`wpo-contact-section ${rClass} section-padding`}>
+    <section className={`wpo-contact-section ${rClass} section-padding`} id='rsvp'>
       <div className="container mx-auto px-4">
         <div className="row">
           <div className="flex flex-column">
             <div className="wpo-contact-section-wrapper">
-              <div className="wpo-section-title">
-                <h2 className='text-center'>Confirmação</h2>
+              <div className="wpo-section-title text-center">
+                <h2 className='text-center' aria-labelledby='form-title'>Confirmação de Presença</h2>
               </div>
               <div className="wpo-contact-form-area">
                 <RSVPFrom />

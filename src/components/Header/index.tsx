@@ -51,18 +51,10 @@ const Header = () => {
                 </li>
                 <li>
                   <Link
-                    href="/#events"
+                    href="/#history"
                     className="font-medium text-xl header-item"
                   >
-                    Evento
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/#gallery"
-                    className="font-medium text-xl header-item"
-                  >
-                    Galeria
+                    História
                   </Link>
                 </li>
                 <li>
@@ -73,6 +65,24 @@ const Header = () => {
                     RSVP
                   </Link>
                 </li>
+                <li>
+                  <Link
+                    href="/#event"
+                    className="font-medium text-xl header-item"
+                  >
+                    Evento
+                  </Link>
+                </li>
+                {/*
+                <li>
+                  <Link
+                    href="/#gallery"
+                    className="font-medium text-xl header-item"
+                  >
+                    Galeria
+                  </Link>
+                </li>
+                */}
                 <li>
                   <Link
                     href="/gift"

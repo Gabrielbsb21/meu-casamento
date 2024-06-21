@@ -12,14 +12,36 @@ type FormValues = {
 
 const RSVPFrom: React.FC = () => {
   const [bringGuest, setBringGuest] = useState(false);
+  const [apiResponse, setApiResponse] = useState<string | null>(null);
   const {
     register,
     handleSubmit,
-    formState: { errors }
+    formState: { errors },
+    reset
   } = useForm<FormValues>();
 
-  const onSubmit: SubmitHandler<FormValues> = (data) => {
-    console.log(data);
+  const onSubmit: SubmitHandler<FormValues> = async (data) => {
+    // console.log(data);
+    try {
+      const response = await fetch('/api/confirm_presence', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data)
+      });
+
+      if (response.ok) {
+        const responseData = await response.json();
+        setApiResponse(responseData.message);
+        reset();
+        setBringGuest(false);
+        // console.log(data);
+      } else {
+        setApiResponse('Ocorreu um erro ao enviar a confirmação.');
+      }
+    } catch (error) {
+      console.error('Erro na requisição:', error);
+      setApiResponse('Ocorreu um erro ao enviar a confirmação.');
+    }
   };
 
   return (
@@ -95,6 +117,9 @@ const RSVPFrom: React.FC = () => {
           </div>
         </div>
       </div>
+      {apiResponse && (
+        <div className="text-center mt-4 text-green-600">{apiResponse}</div>
+      )}
       <div className="text-center mt-8">
         <button
           type="submit"

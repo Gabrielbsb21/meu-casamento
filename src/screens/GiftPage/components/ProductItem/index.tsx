@@ -20,7 +20,7 @@ const ProductItem: React.FC<ProductItemProps> = ({ title, price, imageUrl }) => 
         />
       </div>
       <div className={styles.headerCard}>
-        <Link href="/product">
+        <Link href="/gift-single">
           <h3 className={styles.productTitle}>{title}</h3>
         </Link>
         <p className={`text-sm ${styles.price} `}>{price}</p>

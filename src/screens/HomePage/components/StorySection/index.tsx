@@ -25,7 +25,7 @@ const StorySection = () => {
               <div className="row">
                 <div className={`col col-lg-6 col-12 ${story.order1}`}>
                   <div className="wpo-story-img">
-                    <Image src={story.sImg} alt="" />
+                    <Image src={story.sImg} alt="" className="w-[600px] h-[490px] object-cover" />
                   </div>
                 </div>
 

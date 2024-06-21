@@ -1,19 +1,23 @@
 import Image from 'next/image';
-import coupleImg1 from '/public/assets/images/couple/1.jpg';
-import coupleImg2 from '/public/assets/images/couple/2.jpg';
+import gabriela from '/public/assets/images/couple/gabriela.jpg';
+import gabriel from '/public/assets/images/couple/gabriel.jpg';
 import bg from '/public/assets/images/couple/image-bg.svg';
 
 import './style.css';
 
 const Couple = () => {
   return (
-    <section className="wpo-couple-section" id='about'>
+    <section className="wpo-couple-section" id="about">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 gap-4">
           <article className="couple-item">
             <div className="couple-img-wrap">
               <div className="couple-img">
-                <Image src={coupleImg1} alt="" />
+                <Image
+                  src={gabriela}
+                  alt=""
+                  className="w-[514px] h-[458px] object-cover sm:w-[400px] sm:h-[350px] xs:w-[300px] xs:h-[250px]"
+                />
               </div>
               <div className="c-shape">
                 <Image src={bg} alt="" />
@@ -22,9 +26,12 @@ const Couple = () => {
             <div className="couple-text">
               <h3>Gabriela Lopes</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna
-                orci auctor vitae nisl. Erat fringilla pellentesque amet tempus.
-                Commodo mi vitae, sagittis blandit.
+                Gabriela é a luz que ilumina o meu caminho. Seu sorriso
+                contagiante e sua bondade são apenas algumas das qualidades que
+                a tornam tão especial. Desde o momento em que nos conhecemos,
+                ela me ensinou o verdadeiro significado do amor e da parceria.
+                Gabriela é não apenas a mulher dos meus sonhos, mas também minha
+                melhor amiga e confidente.
               </p>
             </div>
           </article>
@@ -32,7 +39,7 @@ const Couple = () => {
             <div className="couple-item">
               <div className="couple-img-wrap">
                 <div className="couple-img">
-                  <Image src={coupleImg2} alt="" />
+                  <Image src={gabriel} alt="" className="w-[514px] h-[458px] object-cover sm:w-[400px] sm:h-[350px] xs:w-[300px] xs:h-[250px]"/>
                 </div>
                 <div className="c-shape">
                   <Image src={bg} alt="" />
@@ -41,9 +48,12 @@ const Couple = () => {
               <div className="couple-text">
                 <h3>Gabriel Teixeira</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna
-                  orci auctor vitae nisl. Erat fringilla pellentesque amet
-                  tempus. Commodo mi vitae, sagittis blandit.
+                  Gabriel é o meu porto seguro. Sua sabedoria e seu apoio
+                  incondicional me dão forças para enfrentar qualquer desafio.
+                  Desde que nos encontramos, ele tem sido meu companheiro fiel,
+                  sempre ao meu lado em cada passo da nossa jornada. Gabriel tem
+                  um coração generoso e um espírito vibrante, sempre disposto a
+                  ajudar e a fazer o bem.
                 </p>
               </div>
             </div>

@@ -8,6 +8,7 @@ import shape4 from '/public/assets/images/slider/shape4.svg';
 import shape5 from '/public/assets/images/slider/shape5.svg';
 import shape6 from '/public/assets/images/slider/shape6.svg';
 import hero1 from '/public/assets/images/slider/hero-1.jpg';
+import couple from '/public/assets/images/couple/casal.jpg';
 import bgshape from '/public/assets/images/slider/bg-shape.png';
 import { Slide } from 'react-awesome-reveal';
 import './style.css';
@@ -55,7 +56,7 @@ const Hero = () => {
               <article className="static-hero-right">
                 <div className="static-hero-img scene" id="scene">
                   <div className="static-hero-img-inner">
-                    <Image src={hero1} alt="" />
+                    <Image src={couple} alt="" />
                   </div>
                   <div className="static-hero-shape-1">
                     <span className="layer" data-depth="0.25">

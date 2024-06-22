@@ -54,7 +54,7 @@ const MobileMenu = () => {
               <Link href="/#rsvp" className='font-medium text-xl text-white'>RSVP</Link>
             </li>
             <li>
-              <Link href="/#gift" className='font-medium text-xl text-white'>Presentes</Link>
+              <Link href="/gift" className='font-medium text-xl text-white'>Presentes</Link>
             </li>
           </ul>
         </nav>

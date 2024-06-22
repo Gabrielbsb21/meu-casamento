@@ -221,7 +221,31 @@ const giftData: Gift[] = [
     title: 'Jogo de tabuleiro',
     price: 'R$ 150,00',
     imageUrl: '/assets/images/gifts/tabuleiro.webp'
-  }
+  },
+  {
+    id: 37,
+    title: 'Patrocine a Lua de Mel',
+    price: 'R$ 200,00',
+    imageUrl: '/assets/images/gifts/pipa.webp'
+  },
+  {
+    id: 38,
+    title: 'Patrocine a Lua de Mel',
+    price: 'R$ 200,00',
+    imageUrl: '/assets/images/gifts/pipa.webp'
+  },
+  {
+    id: 39,
+    title: 'Patrocine a Lua de Mel',
+    price: 'R$ 200,00',
+    imageUrl: '/assets/images/gifts/pipa.webp'
+  },
+  {
+    id: 40,
+    title: 'Patrocine a Lua de Mel',
+    price: 'R$ 200,00',
+    imageUrl: '/assets/images/gifts/pipa.webp'
+  },
 ];
 
 export default giftData;

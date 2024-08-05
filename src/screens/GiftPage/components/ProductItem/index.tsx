@@ -11,6 +11,7 @@ interface ProductItemProps {
 const ProductItem: React.FC<ProductItemProps> = ({ title, price, imageUrl }) => {
   return (
     <article className={styles.card}>
+      <Link href="/gift-single">
       <div className={styles.productImg}>
         <Image
           src={imageUrl}
@@ -19,6 +20,7 @@ const ProductItem: React.FC<ProductItemProps> = ({ title, price, imageUrl }) => 
           height={250}
         />
       </div>
+      </Link>
       <div className={styles.headerCard}>
         <Link href="/gift-single">
           <h3 className={styles.productTitle}>{title}</h3>

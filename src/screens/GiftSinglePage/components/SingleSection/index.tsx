@@ -8,7 +8,7 @@ const SingleSection = () => {
 
   const handleCopy = () => {
     navigator.clipboard.writeText(
-      '00020126840014BR.GOV.BCB.PIX0136c6540b89-fcc6-4d8d-9014-83cd795561860222presente de casamento 5204000053039865406200.005802BR5924GABRIELA LOPES DE FRANCA6008BRASILIA622605227WjrdSIQV8ot6Se20quPT763042C79'
+      '00020126580014BR.GOV.BCB.PIX0136c6540b89-fcc6-4d8d-9014-83cd795561865204000053039865802BR5924GABRIELA LOPES DE FRANCA6008BRASILIA622605222Y2dMc8EfEKqG75QDXnHRI630461FD'
     );
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
@@ -47,7 +47,7 @@ const SingleSection = () => {
                   type="text"
                   id="pix-key"
                   readOnly
-                  value="00020126840014BR.GOV.BCB.PIX0136c6540b89-fcc6-4d8d-9014-83cd795561860222presente de casamento 5204000053039865406200.005802BR5924GABRIELA LOPES DE FRANCA6008BRASILIA622605227WjrdSIQV8ot6Se20quPT763042C79"
+                  value="00020126580014BR.GOV.BCB.PIX0136c6540b89-fcc6-4d8d-9014-83cd795561865204000053039865802BR5924GABRIELA LOPES DE FRANCA6008BRASILIA622605222Y2dMc8EfEKqG75QDXnHRI630461FD"
                   className="w-full px-4 py-2 border border-gray-300 rounded-l-md"
                 />
                 <button
@@ -58,9 +58,6 @@ const SingleSection = () => {
                 </button>
               </div>
             </div>
-            <button className="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600">
-              Buy Now
-            </button>
           </article>
         </div>
       </div>
